@@ -9,11 +9,11 @@ use function Sodium\compare;
 
 class QuestionsController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+    public function __construct()
+    {
+        $this->middleware('auth', ['except' => ['index', 'show']]);
+    }
+
     public function index()
     {
         $questions = Question::with('user')->latest()->paginate(5);
@@ -64,31 +64,21 @@ class QuestionsController extends Controller
      */
     public function edit(Question $question)
     {
+        $this->authorize('update' , $question);
         return view('questions.edit', compact('question'));
 
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function update(AskQuestionRequest $request, Question $question)
     {
-        $question->update($request->only('title', 'body'));
 
         return redirect('/questions')->with('success', "Your question has been updated.");
     }
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function destroy(Question $question )
     {
+        $this->authorize('delete', $question);
         $question->delete();
         return redirect('/questions')->with('success', 'Your questions has been deleted');
     }
