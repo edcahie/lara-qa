@@ -64,32 +64,27 @@ class QuestionsController extends Controller
      */
     public function edit(Question $question)
     {
-        return view('questions.edit', compact('question'));
-
+        if(\Gate::allows('update-question', $question)){
+            return view('questions.edit', compact('question'));
+        }
+        abort(403, 'Acces denied');
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function update(AskQuestionRequest $request, Question $question)
     {
         $question->update($request->only('title', 'body'));
 
         return redirect('/questions')->with('success', "Your question has been updated.");
     }
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
+
     public function destroy(Question $question )
     {
-        $question->delete();
-        return redirect('/questions')->with('success', 'Your questions has been deleted');
+        if(\Gate::allows('delete-question', $question)){
+            $question->delete();
+            return redirect('/questions')->with('success', 'Your questions has been deleted');
+        }
+       abort(403, 'Acces denied');
     }
 }
