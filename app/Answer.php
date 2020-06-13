@@ -30,8 +30,14 @@ class Answer extends Model
             $answer->question->increment('anwswers_count');
         });
 
-        static::deleted(function ($answer){
-            $answer->question->decrement('anwswers_count');
+        static::deleted(function ($answer) {
+
+            $question = $answer->question;
+            $question->decrement('answers_count');
+            if ($question->best_answer_id === $answer->id) {
+                $question->best_answer_id = NULL;
+                $question->save();
+            }
         });
     }
 
@@ -39,4 +45,10 @@ class Answer extends Model
 
         return $this->created_at->diffForHumans();
     }
+
+    public function getStatusAttribute(){
+
+        return $this->id  === $this->question->best_answer_id ? 'vote-accepted' : '';
+    }
+
 }
