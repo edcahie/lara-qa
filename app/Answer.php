@@ -29,6 +29,10 @@ class Answer extends Model
 
             $answer->question->increment('anwswers_count');
         });
+
+        static::deleted(function ($answer){
+            $answer->question->decrement('anwswers_count');
+        });
     }
 
     public function getCreatedDateAttribute(){
