@@ -80,15 +80,10 @@ class AnswerPolicy
         //
     }
 
-    /**
-     * Determine whether the user can permanently delete the answer.
-     *
-     * @param  \App\User  $user
-     * @param  \App\Answer  $answer
-     * @return mixed
-     */
-    public function forceDelete(User $user, Answer $answer)
+
+    public function accept(User $user, Answer $answer)
     {
-        //
+        return $user->id == $answer->question->user_id ;
+
     }
 }
