@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79cc453a-e0bd-4616-b49e-bae5ffba189b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Answer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Answer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Question.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/answers/_index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/answers/_index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/questions/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/questions/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/questions/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/questions/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,53 +32,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/questions/show.blade.php">
+      <file leaf-file-name="VotableTrait.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/VotableTrait.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/answers/_index.blade.php">
+      <file leaf-file-name="Question.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Question.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            <state relative-caret-position="135">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding>
-                <element signature="n#style#0;n#form#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#23#62#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VoteQuestionController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/VoteQuestionController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#40#57#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -91,20 +56,8 @@
       <file leaf-file-name="Answer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Answer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Question.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Question.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-              <folding>
-                <element signature="e#23#62#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -170,14 +123,15 @@
         <option value="$PROJECT_DIR$/database/migrations/2020_06_16_000131_rename_votes_on_questions_table.php" />
         <option value="$PROJECT_DIR$/resources/views/questions/index.blade.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" />
-        <option value="$PROJECT_DIR$/app/Question.php" />
         <option value="$PROJECT_DIR$/resources/views/questions/show.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/answers/_index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/VoteQuestionController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/VoteAnswerController.php" />
-        <option value="$PROJECT_DIR$/app/Answer.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/app/VotableTrait.php" />
+        <option value="$PROJECT_DIR$/app/Answer.php" />
+        <option value="$PROJECT_DIR$/app/Question.php" />
       </list>
     </option>
   </component>
@@ -315,19 +269,6 @@
             <path>
               <item name="lara-qa" type="b2602c69:ProjectViewProjectNode" />
               <item name="lara-qa" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lara-qa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lara-qa" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lara-qa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lara-qa" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -338,7 +279,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="user&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/User.php&#10;que&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Question.php&#10;ans&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Answer.php&#10;web&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/routes/web.php&#10;IN&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/answers/_index.blade.php&#10;SHO&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/show.blade.php&#10;qu&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Question.php&#10;sho&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/show.blade.php&#10;vote&#9;null&#9;null&#10;us&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/User.php&#10;answ&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Answer.php&#10;ind&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/index.blade.php&#10;q&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Question.php&#10;F&#9;null&#9;null&#10;sh&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/show.blade.php&#10;use&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/User.php&#10;creat&#9;null&#9;null&#10;_in&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/answers/_index.blade.php&#10;an&#9;null&#9;null&#10;in&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/index.blade.php&#10;_&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/answers/_index.blade.php&#10;Ans&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Http/Controllers/AnswersController.php&#10;answe&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Http/Controllers/AnswersController.php&#10;cre&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/answers/_create.blade.php&#10;A&#9;null&#9;null&#10;fon&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/js/fontawesome.js&#10;app&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/js/app.js&#10;dat&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/database/seeds/DatabaseSeeder.php&#10;ques&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Policies/QuestionPolicy.php&#10;quest&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/database/factories/QuestionFactory.php&#10;auth&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Providers/AuthServiceProvider.php&#10;routeserv&#9;null&#9;null&#10;we&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/routes/web.php&#10;inde&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/index.blade.php&#10;As&#9;null&#9;null&#10;i&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/index.blade.php&#10;_var&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/sass/_variables.scss&#10;sc&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/sass/app.scss&#10;.env&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/.env&#10;index&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/index.blade.php&#10;Quest&#9;null&#9;null&#10;data&#9;null&#9;null&#10;Ques&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/database/factories/QuestionFactory.php" />
+    <property name="SearchEverywhereHistoryKey" value="que&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Question.php&#10;user&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/User.php&#10;ans&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Answer.php&#10;web&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/routes/web.php&#10;IN&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/answers/_index.blade.php&#10;SHO&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/show.blade.php&#10;qu&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Question.php&#10;sho&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/show.blade.php&#10;vote&#9;null&#9;null&#10;us&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/User.php&#10;answ&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Answer.php&#10;ind&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/index.blade.php&#10;q&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Question.php&#10;F&#9;null&#9;null&#10;sh&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/show.blade.php&#10;use&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/User.php&#10;creat&#9;null&#9;null&#10;_in&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/answers/_index.blade.php&#10;an&#9;null&#9;null&#10;in&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/index.blade.php&#10;_&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/answers/_index.blade.php&#10;Ans&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Http/Controllers/AnswersController.php&#10;answe&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Http/Controllers/AnswersController.php&#10;cre&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/answers/_create.blade.php&#10;A&#9;null&#9;null&#10;fon&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/js/fontawesome.js&#10;app&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/js/app.js&#10;dat&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/database/seeds/DatabaseSeeder.php&#10;ques&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Policies/QuestionPolicy.php&#10;quest&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/database/factories/QuestionFactory.php&#10;auth&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Providers/AuthServiceProvider.php&#10;routeserv&#9;null&#9;null&#10;we&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/routes/web.php&#10;inde&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/index.blade.php&#10;As&#9;null&#9;null&#10;i&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/index.blade.php&#10;_var&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/sass/_variables.scss&#10;sc&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/sass/app.scss&#10;.env&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/.env&#10;index&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/index.blade.php&#10;Quest&#9;null&#9;null&#10;data&#9;null&#9;null&#10;Ques&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/database/factories/QuestionFactory.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -376,7 +317,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62238000" />
+    <option name="totallyTimeSpent" value="63673000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,6 +330,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="737" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -396,8 +338,8 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="npm" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.2859375" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1720517" />
+      <window_info anchor="bottom" id="Terminal" weight="0.2859375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1720517" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
@@ -437,13 +379,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="22" lean-forward="true" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/vendor/pagination/bootstrap-4.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -632,16 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AnswersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-          <folding>
-            <element signature="e#40#55#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Policies/AnswerPolicy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="603">
@@ -766,13 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Answer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/VoteAnswerController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -783,20 +701,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Question.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AnswersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+        <state relative-caret-position="125">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
           <folding>
-            <element signature="e#23#62#0#PHP" expanded="true" />
+            <element signature="e#40#55#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+        <state relative-caret-position="109">
+          <caret line="78" column="46" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Answer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/VotableTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Question.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#23#62#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
