@@ -28,11 +28,11 @@ class Answer extends Model
 
         static::created(function ($answer){
 
-            $answer->question->increment('anwswers_count');
+            $answer->question->increment('answers_count');
         });
 
         static::deleted(function ($answer){
-            $answer->question->decrement('anwswers_count');
+            $answer->question->decrement('answers_count');
         });
     }
 
