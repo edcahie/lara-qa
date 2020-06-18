@@ -43,6 +43,12 @@ class Question extends Model
     }
     public function getBodyHtmlAttribute(){
 
+        //return \Parsedown::instance()->text($this->body);
+        return clean($this->bodyHtml());
+
+    }
+    private function bodyHtml()
+    {
         return \Parsedown::instance()->text($this->body);
     }
 
@@ -74,6 +80,15 @@ class Question extends Model
 
     public function getFavoritesCountAttribute(){
         return $this->favorites()->count();
+    }
+
+    public function excerpt($length)
+    {
+        return str_limit(strip_tags($this->bodyHtml()), $length);
+    }
+    public function getExcerptAttribute()
+    {
+        return $this->excerpt(250);
     }
 
 }
