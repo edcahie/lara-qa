@@ -54,7 +54,9 @@ class Question extends Model
 
     public function answers(){
 
-        return $this->hasMany(Answer::class);
+        return $this->hasMany(Answer::class)->orderBy('votes_count', 'DESC');
+
+       // return $this->hasMany(Answer::class);
     }
 
     public function acceptBestAnswer(Answer $answer){
