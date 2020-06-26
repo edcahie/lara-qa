@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="79cc453a-e0bd-4616-b49e-bae5ffba189b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AnswersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AnswersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FavoritesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FavoritesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Question.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/AnswerComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/AnswerComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/answers/_answer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/answers/_answer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/shared/_vote.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shared/_vote.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,38 +39,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <file leaf-file-name="FavoriteComponent.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/js/components/FavoriteComponent.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+            <state relative-caret-position="495">
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnswerComponent.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/AnswerComponent.vue">
+      <file leaf-file-name="Question.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Question.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#23#62#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnswersController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AnswersController.php">
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="411">
+              <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_answer.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/answers/_answer.blade.php">
+      <file leaf-file-name="FavoritesController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FavoritesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="465">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -99,6 +106,9 @@
       <find>navigation</find>
       <find>answered</find>
       <find>que</find>
+      <find>_favor</find>
+      <find>favorite</find>
+      <find>count</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,8 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Requests/AskQuestionRequest.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/_messages.php" />
         <option value="$PROJECT_DIR$/resources/views/questions/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/questions/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/questions/_form.blade.php" />
@@ -127,7 +135,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/AcceptAnswerController.php" />
         <option value="$PROJECT_DIR$/app/Policies/AnswerPolicy.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_06_15_141459_create_favorites_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/FavoritesController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_06_15_232108_create_votables_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_06_16_000131_rename_votes_on_questions_table.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" />
@@ -137,7 +144,6 @@
         <option value="$PROJECT_DIR$/resources/views/shared/_author.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/shared/_accept.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/shared/_favorite.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/shared/_vote.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_06_17_181656_rename_answers_in_questions_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
@@ -148,16 +154,20 @@
         <option value="$PROJECT_DIR$/resources/views/questions/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/app/Question.php" />
         <option value="$PROJECT_DIR$/resources/js/components/UserInfo.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/Answer.vue" />
-        <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/app/Answer.php" />
         <option value="$PROJECT_DIR$/public/css/app.css" />
         <option value="$PROJECT_DIR$/resources/views/answers/_index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AnswersController.php" />
         <option value="$PROJECT_DIR$/resources/views/answers/_answer.blade.php" />
         <option value="$PROJECT_DIR$/resources/js/components/AnswerComponent.vue" />
+        <option value="$PROJECT_DIR$/resources/js/app.js" />
+        <option value="$PROJECT_DIR$/resources/views/shared/_vote.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/FavoritesController.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/FavoriteComponent.vue" />
+        <option value="$PROJECT_DIR$/app/Question.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
       </list>
     </option>
   </component>
@@ -271,9 +281,10 @@
       <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -291,13 +302,20 @@
             <path>
               <item name="lara-qa" type="b2602c69:ProjectViewProjectNode" />
               <item name="lara-qa" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lara-qa" type="b2602c69:ProjectViewProjectNode" />
               <item name="lara-qa" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lara-qa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lara-qa" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -307,7 +325,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="AN&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Http/Controllers/AnswersController.php&#10;app&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/js/app.js&#10;in&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/answers/_index.blade.php&#10;lay&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/layouts&#10;an&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Http/Controllers/AnswersController.php&#10;ans&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Answer.php&#10;SH&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/show.blade.php&#10;User&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/js/components/UserInfo.vue&#10;us&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/js/components/UserInfo.vue&#10;que&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Question.php&#10;user&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/User.php&#10;route&#9;null&#9;null&#10;sho&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/show.blade.php&#10;bootstrap-4.blade.php&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/vendor/pagination/bootstrap-4.blade.php&#10;ind&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/index.blade.php&#10;aps&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/sass/app.scss&#10;ap&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/public/css/app.css&#10;_&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/answers/_index.blade.php&#10;index&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/index.blade.php&#10;ques&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Question.php&#10;rout&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Providers/RouteServiceProvider.php&#10;web&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/routes/web.php&#10;answer&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Answer.php&#10;qu&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Question.php&#10;_inde&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/answers/_index.blade.php&#10;IN&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/answers/_index.blade.php&#10;SHO&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/show.blade.php&#10;vote&#9;null&#9;null&#10;answ&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Answer.php&#10;q&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Question.php&#10;F&#9;null&#9;null&#10;sh&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/show.blade.php&#10;use&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/User.php&#10;creat&#9;null&#9;null&#10;_in&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/answers/_index.blade.php&#10;Ans&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Http/Controllers/AnswersController.php&#10;answe&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Http/Controllers/AnswersController.php&#10;cre&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/answers/_create.blade.php&#10;A&#9;null&#9;null&#10;fon&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/js/fontawesome.js&#10;dat&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/database/seeds/DatabaseSeeder.php&#10;quest&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/database/factories/QuestionFactory.php&#10;auth&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Providers/AuthServiceProvider.php&#10;routeserv&#9;null&#9;null&#10;we&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/routes/web.php&#10;inde&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/index.blade.php&#10;As&#9;null&#9;null&#10;i&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/index.blade.php&#10;_var&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/sass/_variables.scss&#10;sc&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/sass/app.scss" />
+    <property name="SearchEverywhereHistoryKey" value="app.bl&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/layouts/app.blade.php&#10;que&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Question.php&#10;favo&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/js/components/FavoriteComponent.vue&#10;kerne&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/vendor/symfony/http-kernel/Kernel.php&#10;app&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/bootstrap/app.php&#10;index&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/public/index.php&#10;.en&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/.env&#10;fav&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Http/Controllers/FavoritesController.php&#10;an&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/js/components/AnswerComponent.vue&#10;sho&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/show.blade.php&#10;AN&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/js/components/AnswerComponent.vue&#10;APP&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/js/app.js&#10;in&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/answers/_index.blade.php&#10;lay&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/layouts&#10;ans&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Answer.php&#10;SH&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/show.blade.php&#10;User&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/js/components/UserInfo.vue&#10;us&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/js/components/UserInfo.vue&#10;user&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/User.php&#10;route&#9;null&#9;null&#10;bootstrap-4.blade.php&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/vendor/pagination/bootstrap-4.blade.php&#10;ind&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/index.blade.php&#10;aps&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/sass/app.scss&#10;ap&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/public/css/app.css&#10;_&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/answers/_index.blade.php&#10;ques&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Question.php&#10;rout&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Providers/RouteServiceProvider.php&#10;web&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/routes/web.php&#10;answer&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Answer.php&#10;qu&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Question.php&#10;_inde&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/answers/_index.blade.php&#10;IN&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/answers/_index.blade.php&#10;SHO&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/show.blade.php&#10;vote&#9;null&#9;null&#10;answ&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Answer.php&#10;q&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Question.php&#10;F&#9;null&#9;null&#10;sh&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/questions/show.blade.php&#10;use&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/User.php&#10;creat&#9;null&#9;null&#10;_in&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/answers/_index.blade.php&#10;Ans&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Http/Controllers/AnswersController.php&#10;answe&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Http/Controllers/AnswersController.php&#10;cre&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/views/answers/_create.blade.php&#10;A&#9;null&#9;null&#10;fon&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/resources/js/fontawesome.js&#10;dat&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/database/seeds/DatabaseSeeder.php&#10;quest&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/database/factories/QuestionFactory.php&#10;auth&#9;FILE&#9;file:///Users/michelagah/edmondProjects/lara-qa/app/Providers/AuthServiceProvider.php&#10;routeserv&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -341,12 +359,14 @@
       <option name="presentableId" value="Default" />
       <updated>1591627032934</updated>
       <workItem from="1591627034730" duration="17060000" />
-      <workItem from="1592905991911" duration="23563000" />
+      <workItem from="1592905991911" duration="29304000" />
+      <workItem from="1593077689709" duration="972000" />
+      <workItem from="1593193474404" duration="2616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97688000" />
+    <option name="totallyTimeSpent" value="107017000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -358,19 +378,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50080776" side_tool="true" weight="0.4289655" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info id="npm" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32965517" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3291536" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49919224" visible="true" weight="0.4289655" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21324718" />
+      <window_info id="npm" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49919224" weight="0.4278997" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.104200326" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -380,25 +400,26 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1736672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21324718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4289655" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49919224" weight="0.4289655" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.4289655" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32965517" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -416,49 +437,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AnswerController.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/ControllerMiddlewareOptions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QuestionsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="43" column="105" lean-forward="true" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/answers/_create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/answers/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Policies/AnswerPolicy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AcceptAnswerController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -470,13 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="23" column="51" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FavoritesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -536,31 +507,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/VotableTrait.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/shared/_accept.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/shared/_favorite.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/shared/_vote.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -666,16 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Question.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="e#23#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -683,41 +623,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/Answer.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/UserInfo.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Answer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/questions/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/Answer.vue" />
     <entry file="file://$PROJECT_DIR$/resources/views/answers/_index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -729,13 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="11019" selection-start-line="11019" selection-end-line="11019" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -753,10 +652,128 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="32" column="79" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/shared/_vote.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/questions/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/components/AnswerComponent.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        <state relative-caret-position="855">
+          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/shared/_favorite.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Answer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/VotableTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/UserInfo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="19" selection-start-line="28" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#7#407#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-kernel/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5373">
+          <caret line="45" column="43" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FavoritesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/FavoriteComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Question.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#23#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
         </state>
       </provider>
     </entry>

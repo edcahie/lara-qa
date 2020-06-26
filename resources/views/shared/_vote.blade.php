@@ -40,9 +40,12 @@
     </form>
 
     @if ($model instanceof App\Question)
-        @include ('shared._favorite', [
-            'model' => $model
-        ])
+        {{--@include ('shared._favorite', [--}}
+            {{--'model' => $model--}}
+        {{--])--}}
+
+        <favorite-component :question="{{ $model }}"></favorite-component>
+
     @elseif ($model instanceof App\Answer)
         @include ('shared._accept', [
             'model' => $model
