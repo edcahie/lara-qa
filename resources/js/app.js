@@ -31,6 +31,7 @@ Vue.use(VueIziToast);
     Vue.component('user-info', require('./components/UserInfo.vue').default);
     Vue.component('answer-component', require('./components/AnswerComponent').default);
     Vue.component('favorite-component', require('./components/FavoriteComponent').default);
+    Vue.component('accept-component', require('./components/AcceptComponent').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
