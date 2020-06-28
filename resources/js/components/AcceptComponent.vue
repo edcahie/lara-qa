@@ -32,13 +32,16 @@
                             timeout: 3000,
                             position: 'bottomLeft'
                         });
+
                         this.isBest = true;
                     })
             }
         },
         computed: {
             canAccept () {
-                return true;
+               // return true;
+              return  this.authorize('accept', this.answer);
+
             },
             accepted () {
                 return !this.canAccept && this.isBest;
