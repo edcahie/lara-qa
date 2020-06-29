@@ -2,14 +2,12 @@
     <div>
         <a v-if="canAccept" title="Mark this answer as best answer"
            :class="classes"
-           @click.prevent="create"
-        >
+           @click.prevent="create">
             <i class="fas fa-check fa-2x"></i>
         </a>
 
         <a v-if="accepted" title="The question owner accepted this answer as best answer"
-           :class="classes"
-        >
+           :class="classes">
             <i class="fas fa-check fa-2x"></i>
         </a>
     </div>
