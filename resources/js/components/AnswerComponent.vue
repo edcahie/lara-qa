@@ -116,8 +116,5 @@
                 return `/questions/${this.questionId}/answers/${this.id}`;
             }
         },
-
-
-
     }
 </script>

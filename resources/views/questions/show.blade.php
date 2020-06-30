@@ -51,7 +51,13 @@
         {{--])--}}
         {{--@include ('answers._create')--}}
 
-        <answers-component :answers="{{ $question->answers }}" :count="{{ $question->answers_count }}"></answers-component>
+        {{--<answers-component :answers="{{ $question->answers }}" :count="{{ $question->answers_count }}"></answers-component>--}}
+
+        <answers-component :question="{{ $question }}"></answers-component>
+
+
+        @include ('answers._create')
+
 
     </div>
 @endsection
