@@ -56,7 +56,7 @@
         <answers-component :question="{{ $question }}"></answers-component>
 
 
-        @include ('answers._create')
+        {{--@include ('answers._create')--}}
 
 
     </div>
