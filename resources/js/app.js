@@ -37,6 +37,8 @@ Vue.use(Authorization);
    // Vue.component('accept-component', require('./components/AcceptComponent').default);
     Vue.component('vote-component', require('./components/VoteComponent').default);
     Vue.component('answers-component', require('./components/AnswersComponent').default);
+    Vue.component('question-page', require('./pages/QuestionPage').default);
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
