@@ -17,16 +17,18 @@
 
                     <div class="card-body">
 
-                        @include('layouts._messages')
-                        @forelse ($questions as $question)
-                            @include ('questions._excerpt')
-                        @empty
-                            <div class="alert alert-warning">
-                                <strong>Sorry</strong> There are no questions available.
-                            </div>
-                        @endforelse
+                        <questions-list :questions="{{ $questions }}"></questions-list>
+                        {{--@include('layouts._messages')--}}
 
-                        {{ $questions->links() }}
+
+                        {{--@forelse ($questions as $question)--}}
+                            {{--@include ('questions._excerpt')--}}
+                        {{--@empty--}}
+                            {{--<div class="alert alert-warning">--}}
+                                {{--<strong>Sorry</strong> There are no questions available.--}}
+                            {{--</div>--}}
+                        {{--@endforelse--}}
+
 
                     </div>
                 </div>

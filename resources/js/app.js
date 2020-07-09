@@ -37,6 +37,8 @@ Vue.use(Authorization);
    // Vue.component('accept-component', require('./components/AcceptComponent').default);
     Vue.component('vote-component', require('./components/VoteComponent').default);
     Vue.component('answers-component', require('./components/AnswersComponent').default);
+    Vue.component('questions-list', require('./components/QuestionsList').default);
+
     Vue.component('question-page', require('./pages/QuestionPage').default);
 
 

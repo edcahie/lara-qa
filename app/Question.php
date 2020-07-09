@@ -10,7 +10,7 @@ class Question extends Model
     use VotableTrait;
     protected $fillable = ['title', 'body'];
 
-    protected $appends = ['created_date', 'is_favorited', 'favorites_count', 'body_html'];
+    protected $appends = ['created_date', 'is_favorited', 'favorites_count', 'body_html', 'status' ];
 
 
     public function setTitleAttribute($value){
