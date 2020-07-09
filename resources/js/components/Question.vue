@@ -32,7 +32,7 @@
                     <hr>
 
                     <div class="media">
-                        <vote-component :model="question" name="question"></vote-component>
+                        <vote :model="question" name="question"></vote>
 
                         <div class="media-body">
                             <div v-html="bodyHtml"></div>

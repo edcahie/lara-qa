@@ -77,13 +77,3 @@ class AnswersController extends Controller
         return back()->with('success', 'Your answer has been deleted');
     }
 }
-
-//
-//public function store(Question $question, Request $request)
-//{
-//    $question->answers()->create($request->validate([
-//            'body' => 'required'
-//        ]) + ['user_id' => \Auth::id()]);
-//
-//    return back()->with('success', "Your answer has been submitted successfully");
-//}

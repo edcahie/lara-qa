@@ -32,12 +32,10 @@ Vue.use(Authorization);
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
     Vue.component('user-info', require('./components/UserInfo.vue').default);
-   // Vue.component('answer-component', require('./components/AnswerComponent').default);
-   // Vue.component('favorite-component', require('./components/FavoriteComponent').default);
-   // Vue.component('accept-component', require('./components/AcceptComponent').default);
     Vue.component('vote-component', require('./components/VoteComponent').default);
     Vue.component('answers-component', require('./components/AnswersComponent').default);
     Vue.component('question-page', require('./pages/QuestionPage').default);
+    Vue.component('question-list', require('./pages/QuestionList').default);
 
 
 /**

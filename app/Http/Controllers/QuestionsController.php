@@ -16,52 +16,35 @@ class QuestionsController extends Controller
 
     public function index()
     {
-        $questions = Question::with('user')->latest()->paginate(5);
+       // $questions = Question::with('user')->latest()->paginate(5);
+        $questions = Question::with('user')->get();
 
         return view('questions.index', compact('questions'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
     public function create()
     {
         $question = new Question();
         return view('questions.create', compact('question'));
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
+
     public function store(AskQuestionRequest $request)
     {
         $request->user()->questions()->create($request->only('title', 'body'));
         return redirect()->route('questions.index')->with('success', 'your questions has been submited');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function show(Question $question)
     {
         $question->increment('views');
+
         return view('questions.show', compact('question'));
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function edit(Question $question)
     {
         $this->authorize('update' , $question);
